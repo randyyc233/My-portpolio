@@ -1,88 +1,33 @@
 <!doctype html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#173d34">
-  <meta name="description" content="Randy Hernandez — IT student and aspiring backend developer in Camarines Sur. Explore web applications, technical skills, and leadership experience.">
-  <title>Randy Hernandez — Developer & Creative Thinker</title>
-  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="styles.css">
-  <script src="app.js" defer></script>
-</head>
-<body>
+<html lang="en" data-theme="light"><head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#f6f7f6">
+<meta name="description" content="Randy Hernandez — IT student and aspiring backend developer. Projects, skills, experience, and contact information.">
+<title>Randy Hernandez — Portfolio</title><link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<script>try{document.documentElement.dataset.theme=localStorage.getItem('portfolio-theme')==='dark'?'dark':'light'}catch{}</script>
+<link rel="stylesheet" href="styles.css"><script src="app.js" defer></script></head><body>
+<svg class="icon-library" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><defs><symbol id="i-briefcase" viewBox="0 0 24 24"><rect x="3" y="7" width="18" height="14" rx="2"/><path d="M8 7V4h8v3M3 12a24 24 0 0 0 18 0M10 12v3h4v-3"/></symbol><symbol id="i-code" viewBox="0 0 24 24"><path d="m8 7-5 5 5 5m8-10 5 5-5 5M14 4l-4 16"/></symbol><symbol id="i-grid" viewBox="0 0 24 24"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/></symbol><symbol id="i-award" viewBox="0 0 24 24"><path d="m12 2 3 2 4 .5.5 4 2 3-2 3-.5 4-4 .5-3 2-3-2-4-.5-.5-4-2-3 2-3 .5-4 4-.5Z"/><path d="m8 11 3 3 5-5"/></symbol><symbol id="i-mail" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 6 9 7 9-7"/></symbol><symbol id="i-file" viewBox="0 0 24 24"><path d="M14 2H5v20h14V7Zm0 0v5h5M8 12h8M8 16h8"/></symbol><symbol id="i-pin" viewBox="0 0 24 24"><path d="M19 10c0 5-7 12-7 12S5 15 5 10a7 7 0 1 1 14 0Z"/><circle cx="12" cy="10" r="2"/></symbol><symbol id="i-target" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="5"/><circle cx="12" cy="12" r="1"/></symbol><symbol id="i-heart" viewBox="0 0 24 24"><path d="M12 21 3 12C-2 5 7 0 12 7c5-7 14-2 9 5Z"/></symbol><symbol id="i-chat" viewBox="0 0 24 24"><path d="M21 11a9 9 0 0 1-13 8l-5 2 1-6a9 9 0 1 1 17-4Z"/><path d="M8 10h8M8 14h5"/></symbol><symbol id="i-phone" viewBox="0 0 24 24"><path d="m7 3 3 5-3 3c2 3 3 4 6 6l3-3 5 3c-1 9-17 2-18-10 0-3 1-4 4-4Z"/></symbol><symbol id="i-sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M12 1v3m0 16v3M1 12h3m16 0h3M4 4l2 2m12 12 2 2M4 20l2-2M18 6l2-2"/></symbol><symbol id="i-moon" viewBox="0 0 24 24"><path d="M20 15A9 9 0 0 1 9 3a9 9 0 1 0 11 12Z"/></symbol></defs></svg>
 <a class="skip-link" href="#main">Skip to content</a>
-<header class="site-header wrap">
-  <a class="wordmark" href="#" aria-label="Randy Hernandez home">randy<span>h.</span><span class="logo-dot"></span></a>
-  <nav aria-label="Main navigation"><a href="#work">Work</a><a href="#about">About</a><a href="#journey">Journey</a></nav>
-  <a class="nav-contact" href="#contact">Let’s talk <span aria-hidden="true">↗</span></a>
-</header>
-<main id="main">
-  <section class="hero wrap" aria-labelledby="hero-title">
-    <div class="hero-copy">
-      <p class="eyebrow"><span class="status-dot"></span> OPEN TO OJT OPPORTUNITIES</p>
-      <h1 id="hero-title">Thoughtful code.<br><span class="serif">Real-world</span><br>possibilities<span class="green">.</span></h1>
-      <p class="hero-intro">Hi, I’m <strong>Randy Hernandez</strong> — an IT student turning ideas into practical web applications, with a focus on the backend.</p>
-      <div class="hero-actions"><a class="button primary" href="#work">Explore my work <span aria-hidden="true">↗</span></a><a class="text-link" href="assets/randy-hernandez-resume.pdf" download>Download résumé <span aria-hidden="true">↓</span></a></div>
-      <p class="location"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M20 10c0 6-8 12-8 12S4 16 4 10a8 8 0 1 1 16 0Z"/><circle cx="12" cy="10" r="2.5"/></svg> Sipocot, Camarines Sur, Philippines</p>
-    </div>
-    <div class="hero-art">
-      <span class="portrait-label">THE PERSON BEHIND THE CODE</span>
-      <div class="portrait-frame"><img src="assets/randy-hernandez.jpg" alt="Portrait of Randy Hernandez" width="1080" height="1350" fetchpriority="high"></div>
-      <span class="star" aria-hidden="true">✳</span>
-      <div class="code-note"><span class="code-dot"></span><code>ideas → logic → impact</code><span class="note-caption">A little curiosity. A lot of building.</span></div>
-      <div class="photo-caption"><span>DEVELOPER IN THE MAKING</span><span>01 / RH</span></div>
-    </div>
-  </section>
-  <div class="stack-strip"><div class="wrap"><span class="stack-label">MY EVERYDAY TOOLKIT</span><span>Node.js</span><i>✳</i><span>TypeScript</span><i>✳</i><span>MySQL</span><i>✳</i><span>Prisma</span><i>✳</i><span>React.js</span></div></div>
-  <section class="section wrap" id="work" aria-labelledby="work-title">
-    <div class="section-heading"><div><p class="eyebrow">01 / SELECTED WORK</p><h2 id="work-title">Ideas put <span class="serif">into practice.</span></h2></div><p>Practical applications.<br>Built around everyday needs.</p></div>
-    <div class="projects">
-      <article class="project">
-        <div class="project-art transport-art" aria-label="Illustration of UVGo booking, queue, and dispatch workflows">
-          <div class="concept-top"><span>UVGo<span class="tiny-dot">●</span></span><span>TRANSPORT, CONNECTED</span></div>
-          <div class="route-line" aria-hidden="true"><span></span><span></span><span></span></div>
-          <div class="workflow"><div><span class="workflow-icon">↗</span><strong>Book a ride</strong><small>Passenger booking</small></div><div><span class="workflow-icon">≋</span><strong>Join the queue</strong><small>Queue management</small></div><div><span class="workflow-icon">→</span><strong>Get moving</strong><small>Vehicle dispatching</small></div></div>
-          <div class="concept-bottom"><span>FROM BOOKING TO DEPARTURE</span><span>WORKFLOW ILLUSTRATION</span></div>
-        </div>
-        <div class="project-meta"><span>FULL STACK · CAPSTONE</span><span>2026</span></div>
-        <h3>UVGo Web App</h3><p>A connected booking and dispatch experience, bringing passenger reservations, vehicle dispatching, and queue management together.</p>
-        <div class="tags"><span>Node.js</span><span>TypeScript</span><span>MySQL</span><span>Prisma</span></div>
-        <button class="project-button" data-project="uvgo">Explore project <span aria-hidden="true">↗</span></button>
-      </article>
-      <article class="project">
-        <div class="project-art housing-art" aria-label="Illustration of the boarding house application's management areas">
-          <div class="concept-top"><span class="house-brand"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="m3 11 9-8 9 8M5 10v11h14V10M9 21v-8h6v8"/></svg> A place for everything.</span></div>
-          <div class="housing-layout"><div class="housing-sidebar"><span class="mini-mark">⌂</span><i></i><i></i><i></i></div><div class="housing-content"><div class="housing-title">Home, organized.<span>Management at a glance</span></div><div class="housing-tiles"><div><span>01</span><strong>Tenants</strong></div><div><span>02</span><strong>Payments</strong></div></div><div class="dashboard-line"><span>One central dashboard</span><span>↗</span></div></div></div>
-          <div class="concept-bottom"><span>BOARDING HOUSE MANAGEMENT</span><span>FEATURE ILLUSTRATION</span></div>
-        </div>
-        <div class="project-meta"><span>WEB APPLICATION</span><span>IMPIG, CAMARINES SUR</span></div>
-        <h3>Boarding House Management</h3><p>A web application that brings tenant records, payment management, and a dashboard into one organized place.</p>
-        <div class="tags"><span>Tenant management</span><span>Payments</span><span>Dashboard</span></div>
-        <button class="project-button" data-project="housing">Explore project <span aria-hidden="true">↗</span></button>
-      </article>
-    </div>
-  </section>
-  <section class="about-section" id="about"><div class="wrap about-grid">
-    <div><p class="eyebrow">02 / A LITTLE ABOUT ME</p><h2>Logical mind.<br><span class="serif">Creative spirit.</span></h2><div class="about-stamp" aria-hidden="true">{ <span>rh</span> }</div></div>
-    <div class="about-copy"><p class="large-copy">I’m interested in what makes things work — and how to make them work better.</p><p>I’m pursuing a BS in Information Technology at Central Bicol State University of Agriculture–Sipocot, with graduation expected in June 2027. My focus is backend development: APIs, databases, and the logic that connects an application.</p><p>Beyond code, I enjoy traditional art, charcoal portrait drawing, and video editing. That creative side brings patience and attention to detail to the way I approach problems.</p><div class="about-facts"><div><span>FOCUS</span><strong>Backend development</strong></div><div><span>NEXT CHAPTER</span><strong>Learn, contribute, grow.</strong></div></div></div>
-  </div></section>
-  <section class="section wrap skills-section" aria-labelledby="skills-title"><div class="section-heading"><div><p class="eyebrow">03 / WHAT I BRING</p><h2 id="skills-title">A practical <span class="serif">toolkit.</span></h2></div><p>Technical foundations.<br>A collaborative mindset.</p></div><div class="skill-grid">
-    <div class="skill-group"><span class="skill-number">/ 01</span><h3>Development</h3><p>Building the logic and interfaces behind web applications.</p><div class="tags"><span>Node.js</span><span>TypeScript</span><span>React.js</span><span>REST APIs</span><span>Java</span><span>Python</span></div></div>
-    <div class="skill-group"><span class="skill-number">/ 02</span><h3>Data & systems</h3><p>Working with databases and the computers that run them.</p><div class="tags"><span>MySQL</span><span>Prisma ORM</span><span>Basic networking</span><span>PC setup & repair</span></div></div>
-    <div class="skill-group"><span class="skill-number">/ 03</span><h3>People & creativity</h3><p>Bringing care, clear communication, and a creative perspective.</p><div class="tags"><span>Problem-solving</span><span>Team leadership</span><span>Traditional art</span><span>CapCut</span></div></div>
-  </div></section>
-  <section class="section wrap journey-section" id="journey"><div class="section-heading"><div><p class="eyebrow">04 / THE JOURNEY SO FAR</p><h2>Learning by <span class="serif">doing.</span></h2></div></div>
-    <div class="journey-grid"><div class="timeline">
-      <article><span class="timeline-date">EXPECTED JUN 2027</span><div><h3>BS in Information Technology</h3><p class="institution">CBSUA–Sipocot</p><p>Dean’s Lister for both semesters of AY 2024–2025 and AY 2025–2026.</p></div></article>
-      <article><span class="timeline-date">MAR 2026</span><div><h3>Work Immersion · Team Leader</h3><p class="institution">System Administration & Maintenance</p><p>Led a team in cleaning and repairing computers and setting up PCs in North Villazar, Sipocot.</p></div></article>
-      <article><span class="timeline-date">2023–2024</span><div><h3>College Student Mayor</h3><p class="institution">College of Information and Technology · CBSUA</p><p>Led student activities, coordinated projects, delegated tasks, and represented members at events.</p></div></article>
-      <article><span class="timeline-date">2022</span><div><h3>Senior High School</h3><p class="institution">Camarines Sur International School</p><p>Graduated with Honors; Best in Electronic Product and Assembly.</p></div></article>
-    </div><aside class="recognition"><span class="award-symbol" aria-hidden="true">✳</span><p class="eyebrow">MILESTONES THAT MATTER</p><h3>A little recognition.<br>A lot of motivation.</h3><ul><li><strong>Hackathon Champion</strong><span>2025</span></li><li><strong>TOPCIT Level II Passer</strong><span>December 2025</span></li><li><strong>Outstanding in Database</strong><span>AY 2025–2026</span></li><li><strong>Outstanding in System Administration & Maintenance</strong><span>AY 2025–2026</span></li><li><strong>Best in Networking</strong><span>AY 2025–2026</span></li><li><strong>Electronic Product and Assembly NC II</strong><span>Certification</span></li><li><strong>Traditional Art Contest Champion</strong><span>School recognition</span></li></ul></aside></div>
-  </section>
-  <section class="contact-section" id="contact"><div class="wrap"><p class="eyebrow"><span class="status-dot"></span> LET’S BUILD SOMETHING MEANINGFUL</p><div class="contact-grid"><h2>Good things start<br>with a <span class="serif">conversation.</span></h2><div><p>I’m looking for an OJT opportunity where I can contribute, learn from experienced developers, and keep growing.</p><a class="button cream" href="mailto:randyyc233@gmail.com">Get in touch <span aria-hidden="true">↗</span></a></div></div><div class="contact-details"><a href="mailto:randyyc233@gmail.com">randyyc233@gmail.com <span aria-hidden="true">↗</span></a><a href="tel:+639928496432">+63 992 849 6432</a><button id="copy-email">Copy email <span aria-hidden="true">⧉</span></button></div><p id="copy-status" class="sr-only" role="status"></p></div></section>
-</main>
-<footer class="wrap"><a class="wordmark" href="#">randy<span>h.</span></a><p>© <span id="year">2026</span> Randy Hernandez</p><a href="#">Back to top ↑</a></footer>
-<dialog id="project-dialog" aria-labelledby="dialog-title"><button class="dialog-close" aria-label="Close project details">×</button><p class="eyebrow" id="dialog-label"></p><h2 id="dialog-title"></h2><p id="dialog-summary"></p><h3>What I worked on</h3><ul id="dialog-features"></ul><p id="dialog-tech"></p><p class="dialog-note">Project summary based on my résumé. The portfolio artwork illustrates the features and is not an application screenshot.</p><a class="button primary" href="mailto:randyyc233@gmail.com?subject=Let%E2%80%99s%20talk%20about%20your%20project">Ask me about this project ↗</a></dialog>
-</body>
-</html>
+<div class="page-shell">
+<header class="profile-header">
+<img class="profile-photo" src="assets/randy-hernandez.jpg" alt="Randy Hernandez" width="132" height="144" fetchpriority="high">
+<div class="profile-info"><h1>Randy Hernandez</h1><p class="location"><svg class="icon " aria-hidden="true"><use href="#i-pin"/></svg>Sipocot, Camarines Sur, Philippines</p><p class="role">BSIT Student / Aspiring Backend Developer</p><div class="profile-actions"><a class="button primary" href="assets/randy-hernandez-resume.pdf" target="_blank" rel="noopener"><svg class="icon " aria-hidden="true"><use href="#i-file"/></svg>View résumé</a><a class="button secondary" href="mailto:randyyc233@gmail.com"><svg class="icon " aria-hidden="true"><use href="#i-mail"/></svg>Send email</a></div></div>
+<button id="theme-toggle" class="theme-toggle" type="button" role="switch" aria-checked="false" aria-label="Dark mode"><span class="toggle-thumb"><svg class="icon sun" aria-hidden="true"><use href="#i-sun"/></svg><svg class="icon moon" aria-hidden="true"><use href="#i-moon"/></svg></span></button>
+</header><main id="main"><div class="overview-grid"><div class="left-column">
+<section class="card about-card"><h2><svg class="icon " aria-hidden="true"><use href="#i-briefcase"/></svg>About</h2><p>I’m a Bachelor of Science in Information Technology student at Central Bicol State University of Agriculture–Sipocot, with graduation expected in June 2027. I’m focused on backend development and building practical web applications.</p><p>I enjoy turning everyday problems into useful systems. My projects include a passenger booking and vehicle dispatching application, and a boarding house management app. I work with Node.js, TypeScript, MySQL, and Prisma to build the logic behind them.</p><p>I’m actively seeking an OJT opportunity where I can apply my skills, contribute to a team, and learn from experienced developers. Outside of coding, I enjoy traditional art, charcoal portraits, and video editing.</p></section>
+<section class="card stack-card"><h2><svg class="icon " aria-hidden="true"><use href="#i-code"/></svg>Tech Stack</h2><div class="skill-group"><h3>Backend & databases</h3><div class="tags"><span>Node.js</span><span>TypeScript</span><span>REST APIs</span><span>MySQL</span><span>Prisma ORM</span></div></div><div class="skill-group"><h3>Frontend & programming</h3><div class="tags"><span>React.js</span><span>Java</span><span>Python</span></div></div><div class="skill-group"><h3>Systems & tools</h3><div class="tags"><span>Basic networking</span><span>PC setup & repair</span><span>Microsoft Office</span><span>CapCut</span></div></div><div class="skill-group"><h3>Personal skills</h3><div class="tags"><span>Problem-solving</span><span>Attention to detail</span><span>Communication</span><span>Teamwork</span><span>Team leadership</span></div></div></section></div>
+<section class="card experience-card"><h2><svg class="icon " aria-hidden="true"><use href="#i-briefcase"/></svg>Experience & Education</h2><ol class="timeline"><li class="current"><div class="event-heading"><h3>BS Information Technology</h3><span>2027</span></div><p>CBSUA–Sipocot · Expected June 2027</p><p>Dean’s Lister, both semesters of AY 2024–2025 and AY 2025–2026.</p></li><li class=""><div class="event-heading"><h3>OJT / Internship — Seeking</h3><span>Now</span></div><p>Looking for a backend development opportunity.</p></li><li class=""><div class="event-heading"><h3>Full Stack Capstone Developer</h3><span>2026</span></div><p>UVGo · Passenger booking, vehicle dispatching, and queue management.</p></li><li class=""><div class="event-heading"><h3>Work Immersion · Team Leader</h3><span>2026</span></div><p>System Administration & Maintenance</p><p>Led computer cleaning, repairs, and PC setup in North Villazar, Sipocot.</p></li><li class=""><div class="event-heading"><h3>College Student Mayor</h3><span>2023–24</span></div><p>College of Information and Technology, CBSUA–Sipocot.</p><p>Coordinated student activities and projects, delegated tasks, and represented members.</p></li><li class=""><div class="event-heading"><h3>Senior High School</h3><span>2022</span></div><p>Camarines Sur International School</p><p>With Honors · Best in Electronic Product and Assembly.</p></li></ol></section></div>
+<div class="two-column"><section class="card" id="projects"><h2><svg class="icon " aria-hidden="true"><use href="#i-grid"/></svg>Recent Projects</h2><div class="project-grid">
+<button class="project-tile inset" data-project="uvgo"><span class="tile-top"><span class="project-monogram">UV</span><span class="arrow" aria-hidden="true">↗</span></span><h3>UVGo Web App</h3><p>Passenger booking, vehicle dispatching, and queue management.</p><span class="small-tag">Full stack capstone · 2026</span><span class="project-detail">View project details <span aria-hidden="true">→</span></span></button><button class="project-tile inset" data-project="housing"><span class="tile-top"><span class="project-monogram">BH</span><span class="arrow" aria-hidden="true">↗</span></span><h3>Boarding House Management</h3><p>Tenant records, payment management, and a central dashboard.</p><span class="small-tag">Impig, Camarines Sur</span><span class="project-detail">View project details <span aria-hidden="true">→</span></span></button>
+</div></section><section class="card"><h2><svg class="icon " aria-hidden="true"><use href="#i-award"/></svg>Certifications & Learning</h2><div class="certificate-list">
+<div class="inset"><h3>TOPCIT Level II Passer</h3><p>December 2025</p></div><div class="inset"><h3>Electronic Product and Assembly NC II</h3><p>Technical certification</p></div><div class="inset"><h3>Intro to Artificial Intelligence & Machine Learning</h3><p>For SUCs · Certificate of Attendance</p></div><div class="inset"><h3>TechTalk Symposium</h3><p>Machine Learning, IoT & Application Development · March 2025</p></div></div></section></div>
+<section class="card recognition-card"><h2><svg class="icon " aria-hidden="true"><use href="#i-award"/></svg>Recognition</h2><div class="recognition-grid"><div class="inset"><h3>Hackathon Champion</h3><p>2025</p></div><div class="inset"><h3>Outstanding in Database</h3><p>AY 2025–2026</p></div><div class="inset"><h3>Outstanding in System Administration & Maintenance</h3><p>AY 2025–2026</p></div><div class="inset"><h3>Best in Networking</h3><p>AY 2025–2026</p></div></div></section>
+<section class="card connect-card" id="contact"><div class="connect-grid">
+<div><h2><svg class="icon " aria-hidden="true"><use href="#i-target"/></svg>Goals</h2><div class="inset goal">Grow a strong foundation in IT through continuous learning and hands-on experience.</div><div class="inset goal">Contribute to practical web applications and learn alongside experienced developers.</div></div>
+<div><h2><svg class="icon " aria-hidden="true"><use href="#i-heart"/></svg>Beyond the Code</h2><div class="interest inset">Traditional art</div><div class="interest inset">Charcoal portrait drawing</div><div class="interest inset">Video editing with CapCut</div><p class="interest-note">School Traditional Art Contest Champion</p></div>
+<div><h2><svg class="icon " aria-hidden="true"><use href="#i-chat"/></svg>Let’s Connect</h2><div class="inset contact-intro"><p><span class="status-dot"></span>Open to OJT / internship opportunities.</p><a href="mailto:randyyc233@gmail.com">Get in touch <span aria-hidden="true">→</span></a></div></div>
+<div class="contact-links"><a class="inset contact-link" href="mailto:randyyc233@gmail.com"><svg class="icon " aria-hidden="true"><use href="#i-mail"/></svg><span><strong>Email</strong><span>randyyc233@gmail.com</span></span><span class="chevron" aria-hidden="true">›</span></a><a class="inset contact-link" href="tel:+639928496432"><svg class="icon " aria-hidden="true"><use href="#i-phone"/></svg><span><strong>Let’s talk</strong><span>+63 992 849 6432</span></span><span class="chevron" aria-hidden="true">›</span></a><a class="inset contact-link" href="assets/randy-hernandez-resume.pdf" download><svg class="icon " aria-hidden="true"><use href="#i-file"/></svg><span><strong>Résumé</strong><span>Download PDF</span></span><span class="chevron" aria-hidden="true">↓</span></a><button id="copy-email" class="copy-button">Copy email address <span aria-hidden="true">⧉</span></button><p id="copy-status" class="sr-only" role="status"></p></div>
+</div></section></main>
+<footer>© <span id="year">2026</span> Randy Hernandez <span class="footer-divider">—</span> All rights reserved.</footer></div>
+<a class="floating-contact" href="mailto:randyyc233@gmail.com"><svg class="icon " aria-hidden="true"><use href="#i-chat"/></svg>Let’s talk</a>
+<dialog id="project-dialog" aria-labelledby="dialog-title"><button class="dialog-close" aria-label="Close project details">×</button><p class="dialog-label" id="dialog-label"></p><h2 id="dialog-title"></h2><p id="dialog-summary"></p><h3>What I worked on</h3><ul id="dialog-features"></ul><p id="dialog-tech"></p><a class="button primary" href="mailto:randyyc233@gmail.com?subject=Let%E2%80%99s%20talk%20about%20your%20project">Ask me about this project <span aria-hidden="true">↗</span></a></dialog>
+</body></html>

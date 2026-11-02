@@ -19,3 +19,18 @@ document.querySelector('#copy-email').addEventListener('click', async function (
   catch { document.querySelector('#copy-status').textContent = 'Copy unavailable. Email: randyyc233@gmail.com'; this.textContent = 'randyyc233@gmail.com'; }
 });
 document.querySelector('#year').textContent = new Date().getFullYear();
+
+const themeToggle = document.querySelector('#theme-toggle');
+function syncTheme() {
+  const dark = document.documentElement.dataset.theme === 'dark';
+  themeToggle.setAttribute('aria-checked', String(dark));
+  themeToggle.title = dark ? 'Switch to light mode' : 'Switch to dark mode';
+  document.querySelector('meta[name="theme-color"]').content = dark ? '#111314' : '#f6f7f6';
+}
+syncTheme();
+themeToggle.addEventListener('click', () => {
+  const theme = document.documentElement.dataset.theme === 'dark' ? 'light' : 'dark';
+  document.documentElement.dataset.theme = theme;
+  try { localStorage.setItem('portfolio-theme', theme); } catch {}
+  syncTheme();
+});
